@@ -1,0 +1,6 @@
+# Bu dosyaya, küfür olarak algılanmaması gereken kelimeleri
+# her satıra bir kelime gelecek şekilde ekleyin.
+# Kelimeler küçük harfe çevrilecek ve normalize edilecektir.
+# Örnek:
+# mal
+# götürmek

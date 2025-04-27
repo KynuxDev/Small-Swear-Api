@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 3000,
+    "hostname": "localhost"
+  },
+  "security": {
+    "rateLimit": {
+      "windowMs": 900000,
+      "maxRequests": 100
+    },
+    "maxTextLength": 5000
+  },
+  "swearDetection": {
+    "useCategorizedList": false,
+    "categorizedWordlistFile": "categorized_wordlist.json",
+    "simpleWordlistFile": "wordlist.txt",
+    "whitelistFile": "whitelist.txt"
+  }
+}
